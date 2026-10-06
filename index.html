@@ -1,0 +1,20 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>maven.maxleiter.com</title>
+<style>
+  body { font: 16px/1.5 system-ui, sans-serif; max-width: 40rem; margin: 3rem auto; padding: 0 1rem; color: #222; background: #fff; }
+  pre { background: #f4f4f4; padding: 1rem; overflow-x: auto; }
+  @media (prefers-color-scheme: dark) { body { color: #ddd; background: #111; } pre { background: #1c1c1c; } a { color: #9cf; } }
+</style>
+<h1>maven.maxleiter.com</h1>
+<p>A Maven repository for Max Leiter's projects.</p>
+<pre>repositories {
+    maven {
+        url = "https://maven.maxleiter.com"
+        content { includeGroup("dev.vellum") }
+    }
+}</pre>
+<p><a href="https://github.com/MaxLeiter/vellum">Vellum</a> is <code>dev.vellum</code>. See its
+<a href="https://github.com/MaxLeiter/vellum/blob/main/docs/api/setup.md">setup docs</a> for the artifacts.
+The files are in <a href="https://github.com/MaxLeiter/maven">MaxLeiter/maven</a>.</p>
