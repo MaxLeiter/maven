@@ -1,0 +1,99 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.vellum",
+    "module": "vellum-fabric-26.3",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "io.github.mcgradleconventions.loader": "fabric",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "vellum-fabric-26.3-0.5.1.jar",
+          "url": "vellum-fabric-26.3-0.5.1.jar",
+          "size": 2977835,
+          "sha512": "c80ed0b77f85e1265cbe72f11d8295cb178a5414a4885b73cc392d8b27b9cdd9f51ebbc8bc56e4ae3730bb869a3868f11373d8922a38f4c552521db70a882b9a",
+          "sha256": "e3f30af73d5a6c847f9eb555e95be3ff4055ac750b04e355874c8d93af892f7e",
+          "sha1": "8329df88aad14c5fb8b9ce478430e00b80c15782",
+          "md5": "4002563fa9b724e531da34653fdd9fbd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "io.github.mcgradleconventions.loader": "fabric",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.19.5"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.161.0+26.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vellum-fabric-26.3-0.5.1.jar",
+          "url": "vellum-fabric-26.3-0.5.1.jar",
+          "size": 2977835,
+          "sha512": "c80ed0b77f85e1265cbe72f11d8295cb178a5414a4885b73cc392d8b27b9cdd9f51ebbc8bc56e4ae3730bb869a3868f11373d8922a38f4c552521db70a882b9a",
+          "sha256": "e3f30af73d5a6c847f9eb555e95be3ff4055ac750b04e355874c8d93af892f7e",
+          "sha1": "8329df88aad14c5fb8b9ce478430e00b80c15782",
+          "md5": "4002563fa9b724e531da34653fdd9fbd"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "io.github.mcgradleconventions.loader": "fabric",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vellum-fabric-26.3-0.5.1-sources.jar",
+          "url": "vellum-fabric-26.3-0.5.1-sources.jar",
+          "size": 265031,
+          "sha512": "e3480ebbb68fa7068f51aefb3e57654a4425a07b748842d777b65fc5b6466660e4c30a0fe17adbd73466cdcdda7e289d9fcd9a1093b9eaef3dcb10546149f759",
+          "sha256": "15c1695caf91434d54d7ee3d4c3b25cbfc35564555827ec54f2cf1fc306c3251",
+          "sha1": "7428758d84d28e6dd0532457cf18f199e7038214",
+          "md5": "2c77c97dd4766c793ab3f2b5c45f4c16"
+        }
+      ]
+    }
+  ]
+}
