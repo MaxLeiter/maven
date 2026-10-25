@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.vellum",
+    "module": "vellum-neoforge-1.21.1",
+    "version": "0.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "io.github.mcgradleconventions.loader": "neoforge",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "vellum-neoforge-1.21.1-0.6.0.jar",
+          "url": "vellum-neoforge-1.21.1-0.6.0.jar",
+          "size": 2764420,
+          "sha512": "661843db950aa7383ca86a16143f24bdfe8542fd43784ecb8719576381276f6bda2948698924ff0a149f726ff6ad6efb3274e0a8ebf8baf1819ca0e013241b9e",
+          "sha256": "9fcf97811cccccecb7d882d368880ec185e2516c5642917d5d05a06a0184f3c0",
+          "sha1": "46e43df7545591379c8dd83a40dab4f438cb24ab",
+          "md5": "1acdf4466bc765efca35dc3cc30e5159"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "io.github.mcgradleconventions.loader": "neoforge",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vellum-neoforge-1.21.1-0.6.0.jar",
+          "url": "vellum-neoforge-1.21.1-0.6.0.jar",
+          "size": 2764420,
+          "sha512": "661843db950aa7383ca86a16143f24bdfe8542fd43784ecb8719576381276f6bda2948698924ff0a149f726ff6ad6efb3274e0a8ebf8baf1819ca0e013241b9e",
+          "sha256": "9fcf97811cccccecb7d882d368880ec185e2516c5642917d5d05a06a0184f3c0",
+          "sha1": "46e43df7545591379c8dd83a40dab4f438cb24ab",
+          "md5": "1acdf4466bc765efca35dc3cc30e5159"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "io.github.mcgradleconventions.loader": "neoforge",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vellum-neoforge-1.21.1-0.6.0-sources.jar",
+          "url": "vellum-neoforge-1.21.1-0.6.0-sources.jar",
+          "size": 273290,
+          "sha512": "f57ac1c54a5b31a18553452a3ca2b8792682c8a4aeb9d26971b903029aedb0e5e9cc9f4c9be9a025f8ddadbd898c32082b5c6d4309278481d244acd27eb1e7e9",
+          "sha256": "cf79a2d55aef802d32d01b6bd8902857450279e8370c096465ee45202c9fa516",
+          "sha1": "cff75af9705489af29066e321bc923d32d558446",
+          "md5": "88278fb0a485a423d83124df606d840b"
+        }
+      ]
+    }
+  ]
+}
