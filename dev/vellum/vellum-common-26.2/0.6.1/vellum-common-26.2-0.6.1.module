@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.vellum",
+    "module": "vellum-common-26.2",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "io.github.mcgradleconventions.loader": "common",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "vellum-common-26.2-0.6.1.jar",
+          "url": "vellum-common-26.2-0.6.1.jar",
+          "size": 359887,
+          "sha512": "37a81b8066ef1b7d0073f2cd531db0a771fac66a86ff6cb0c5ef2ae027ae7cb75077e2ffbad2d76dfc649688b2a1e8cf0b254e339a645da77364190921a2edeb",
+          "sha256": "70b20ea381d1d70da2e8668af8942d5a299a3f9036fa38b61855c7a55d8dbe01",
+          "sha1": "a2db64c36f34e1b34ecaf04a8c03b1cb6e223d88",
+          "md5": "fc554f9cce724adaee1f4e833b59c955"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "io.github.mcgradleconventions.loader": "common",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.vellum",
+          "module": "vellum-engine",
+          "version": {
+            "requires": "0.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vellum-common-26.2-0.6.1.jar",
+          "url": "vellum-common-26.2-0.6.1.jar",
+          "size": 359887,
+          "sha512": "37a81b8066ef1b7d0073f2cd531db0a771fac66a86ff6cb0c5ef2ae027ae7cb75077e2ffbad2d76dfc649688b2a1e8cf0b254e339a645da77364190921a2edeb",
+          "sha256": "70b20ea381d1d70da2e8668af8942d5a299a3f9036fa38b61855c7a55d8dbe01",
+          "sha1": "a2db64c36f34e1b34ecaf04a8c03b1cb6e223d88",
+          "md5": "fc554f9cce724adaee1f4e833b59c955"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "io.github.mcgradleconventions.loader": "common",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vellum-common-26.2-0.6.1-sources.jar",
+          "url": "vellum-common-26.2-0.6.1-sources.jar",
+          "size": 272874,
+          "sha512": "b328bfcf0424fd1c965385724a6ab8a9bcce5a95b7f2a345feace19ecb272a84136ac4826163b0c4148aa17eb7738de8fd2eb300d49b2be4b86e8bcd33881521",
+          "sha256": "fafe86f0a1d9bdc8c6ca6c0c8614a3390955cda6f1db5c8ff1a139ee220f38c1",
+          "sha1": "5124f7fe52ae272a7ab80e34f3d26ad323846174",
+          "md5": "a301a45364948ace2463b1a1ea0a72c8"
+        }
+      ]
+    }
+  ]
+}
