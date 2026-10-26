@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.vellum",
+    "module": "vellum-engine",
+    "version": "0.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "vellum-engine-0.8.0.jar",
+          "url": "vellum-engine-0.8.0.jar",
+          "size": 830541,
+          "sha512": "f24b758d7117384b6e8280a9fb4205ebd9f9d25139f14f48786528e8b36e9f306294615f87bb3eaa7ad5cf70543f7b24d4a84fd17a133db39a9f27f2651e89b0",
+          "sha256": "cf311cf3c8e7c5e8b9bbf87d3a43c6dfde01b280175b9c525e9bc72a2fd1f6db",
+          "sha1": "b141e60b80198af46440249fd372470658c68980",
+          "md5": "84f13d17c6ca76dd06139a5eee3385cc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vellum-engine-0.8.0.jar",
+          "url": "vellum-engine-0.8.0.jar",
+          "size": 830541,
+          "sha512": "f24b758d7117384b6e8280a9fb4205ebd9f9d25139f14f48786528e8b36e9f306294615f87bb3eaa7ad5cf70543f7b24d4a84fd17a133db39a9f27f2651e89b0",
+          "sha256": "cf311cf3c8e7c5e8b9bbf87d3a43c6dfde01b280175b9c525e9bc72a2fd1f6db",
+          "sha1": "b141e60b80198af46440249fd372470658c68980",
+          "md5": "84f13d17c6ca76dd06139a5eee3385cc"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "vellum-engine-0.8.0-sources.jar",
+          "url": "vellum-engine-0.8.0-sources.jar",
+          "size": 461621,
+          "sha512": "7f1ae602419780c20e6dae565866edb8d67587dfe90df6e67a98f34a5ba656c2fe711119372cdc34d68df4f1828d0d4dbb2d7149b8e49c06c894deac2e0111c4",
+          "sha256": "7e09ae5396051ab8aa1d0ac432231f5613886efba419cdb89ebd5501dc71a44b",
+          "sha1": "c94457f0c94bf195c6077821be11b3039685a79b",
+          "md5": "40759d250084eb11e87c0e52d619d09b"
+        }
+      ]
+    }
+  ]
+}
